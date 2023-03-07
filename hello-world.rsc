@@ -1,12 +1,12 @@
 #!rsc by RouterOS
-# RouterOS script: hello-world.rsc
+# RouterOS script: hello-world
 # Copyright (c) 2023 Christian Hesse <mail@eworm.de>
 # https://git.eworm.de/cgit/routeros-scripts-custom/about/COPYING.md
 #
 # hello-world demo script
 # https://git.eworm.de/cgit/routeros-scripts-custom/about/doc/hello-world.md
 
-:local 0 "hello-world.rsc";
+:local 0 "hello-world";
 :global GlobalFunctionsReady;
 :while ($GlobalFunctionsReady != true) do={ :delay 500ms; }
 

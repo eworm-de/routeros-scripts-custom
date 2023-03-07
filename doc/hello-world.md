@@ -17,7 +17,7 @@ Requirements and installation
 
 Just install the script:
 
-    $ScriptInstallUpdate hello-world.rsc "base-url=https://git.eworm.de/cgit/routeros-scripts-custom/plain/"
+    $ScriptInstallUpdate hello-world "base-url=https://git.eworm.de/cgit/routeros-scripts-custom/plain/"
 
 Configuration
 -------------
@@ -30,7 +30,7 @@ Usage and invocation
 
 Just run the script:
 
-    /system/script/run hello-world.rsc;
+    /system/script/run hello-world;
 
 See also 
 --------
