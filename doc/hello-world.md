@@ -17,7 +17,7 @@ Requirements and installation
 
 Just install the script:
 
-    $ScriptInstallUpdate hello-world "base-url=https://git.eworm.de/cgit/routeros-scripts-custom/plain/"
+    $ScriptInstallUpdate hello-world "base-url=https://git.eworm.de/cgit/routeros-scripts-custom/plain/, url-suffix=?h=main"
 
 Configuration
 -------------
