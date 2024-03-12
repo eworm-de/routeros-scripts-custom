@@ -12,12 +12,12 @@
 :do {
   :local ScriptName [ :jobname ];
 
-  :global LogPrintExit2;
+  :global LogPrint;
   :global ScriptFromTerminal;
   :global SendNotification2;
 
   :if ([ $ScriptFromTerminal $ScriptName ] = true) do={
-    $LogPrintExit2 info $ScriptName ("Hello world!") false;
+    $LogPrint info $ScriptName ("Hello world!");
   } else={
     $SendNotification2 ({ origin=$ScriptName; subject="Hello..."; message="... world!" });
   }
