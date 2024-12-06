@@ -9,6 +9,7 @@
 :global GlobalFunctionsReady;
 :while ($GlobalFunctionsReady != true) do={ :delay 500ms; }
 
+:local ExitOK false;
 :do {
   :local ScriptName [ :jobname ];
 
@@ -21,4 +22,6 @@
   } else={
     $SendNotification2 ({ origin=$ScriptName; subject="Hello..."; message="... world!" });
   }
-} on-error={ }
+} on-error={
+  :global ExitError; $ExitError $ExitOK [ :jobname ];
+}
