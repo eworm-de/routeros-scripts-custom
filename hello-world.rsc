@@ -1,6 +1,6 @@
 #!rsc by RouterOS
 # RouterOS script: hello-world
-# Copyright (c) 2023-2025 Christian Hesse <mail@eworm.de>
+# Copyright (c) 2023-2026 Christian Hesse <mail@eworm.de>
 # https://git.eworm.de/cgit/routeros-scripts-custom/about/COPYING.md
 #
 # hello-world demo script
